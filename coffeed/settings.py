@@ -62,7 +62,7 @@ ROOT_URLCONF = 'coffeed.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(MAIN_DIR, 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')], ##Get "TEmplatedoesnot exist at index.html with MAIN_DIR, trying BASE_DIR"
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
