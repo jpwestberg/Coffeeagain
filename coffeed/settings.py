@@ -122,7 +122,7 @@ TEMPLATE_DIRS = (
         )
 
 STATICFILES_DIRS = (
-    os.path.join(MAIN_DIR, 'static'), ##BASE_DIR didn't work either
+    os.path.join(BASE_DIR, 'static'), ##BASE_DIR didn't work either
     )
 
 STATIC_ROOT = 'staticfiles'
